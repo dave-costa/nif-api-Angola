@@ -1,0 +1,20 @@
+{
+  "name": "getdata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "apollo-server": "^3.4.0",
+    "graphql": "^16.0.0",
+    "graphql-import": "^1.0.2",
+    "puppeteer": "^10.4.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-recaptcha": "^3.5.0"
+  }
+}
