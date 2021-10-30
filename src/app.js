@@ -1,6 +1,6 @@
 const { ApolloServer, gql } = require("apollo-server")
 const resolver = require("./controllers/index")
-
+require("dotenv").config()
 const schema = gql`
   type UserNif {
     documentNumber: String

@@ -3,9 +3,7 @@ const puppeteer = require("puppeteer")
 async function starter(documentNumber) {
   const browser = await puppeteer.launch()
   const page = await browser.newPage()
-  await page.goto(
-    "https://portaldocontribuinte.minfin.gov.ao/consultar-nif-do-contribuinte"
-  )
+  await page.goto(process.env.PROVIDER_PAGE)
 
   await page.type("input[name='j_id_45:txtNIFNumber']", documentNumber)
   const button = await page.$x("//*[@id='j_id_45:j_id_4c']")
