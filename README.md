@@ -3,7 +3,7 @@ Happy or unfortunately the api was made in Graphql and has a fairly simple query
 
 ### Before to run: 
 
-- Change .env.example to env
+- Change .env.example to .env
 - It is free to make changes or contribute
 - When you run the project, the url below will appear in the terminal
 
