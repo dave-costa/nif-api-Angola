@@ -12,7 +12,7 @@ Happy or unfortunately the api was made in Graphql and has a fairly simple query
 Clone repository
 
 ```
-https://github.com/dave-costa/nif-api-Angola.git
+git clone https://github.com/dave-costa/nif-api-Angola.git
 ```
 
 Running project
